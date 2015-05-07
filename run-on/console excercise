@@ -1,0 +1,111 @@
+var space = " ";
+ 
+var myIntervalTimer = setInterval(function(){ // Runs once every 10 milliseconds.
+  space += " ";
+  if(space.length > 20){
+    space = " ";
+  }
+  if(flipCoin()){
+    console.log('%c'+space, 'background: red; font-size: '+Math.round(Math.random()*50)+'px;');
+  } else {
+    console.log('%c'+space, 'background: lime; font-size: '+Math.round(Math.random()*50)+'px;');
+  }
+}, 10);
+
+var myIntervalTimer = setInterval(function(){ // Runs once every 10 milliseconds.
+  space += " ";
+  if(space.length > 20){
+    space = " ";
+  }
+ 
+setTimeout(function(){ // In 10 seconds we stop setInterval from running.
+  clearInterval(myIntervalTimer);
+}, 1000 * 10);
+
+console.log("surveillance");
+ 
+for (var multiplier = 1; multiplier < 100; multiplier++) {
+  console.log(multiplier*10);
+  var line = "----------------------------__________-------------------------------------------------_________________________________----------------------------------------------------__________________________________________________________-----------------------________________------------___________________________---------------------------------------------__________________________________________________________________________________________________________________________------------------------------------_________________________________________-----------_________-----_________________________________------------_________";
+  
+  for (var i = 0; i < 20; i++) {
+    var slash="/";
+    slash = slash + "_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________";
+    console.log(line*100);
+  }
+console.log("%c MY NAME IS DANIELA GODARD RANGEL", "font-size: 20px; color: blue; background: yellow");
+
+
+
+  for (var i = 0; i < 100; i++) {
+    var dead="|||||||||||||||||||///////////////////////_________________________________________________________________________________________________________________________________________|||||||||||||||||||||||||||||||||||||||||||||||||||||||HELLOWORLD_________________________________________________________________________________________________________________________________________||||||||||||||||||||||||||||||||||||||_________________________________________________________________________________________________________________________________________|||||||||||||||||||||||||||||||||||"
+    dead = dead + "________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________HIWORLD";
+    console.log(dead);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+var space = " ";
+ 
+var myIntervalTimer = setInterval(function(){ // Runs once every 10 milliseconds.
+  space += " ";
+  if(space.length > 20){
+    space = " ";
+  }
+  if(flipCoin()){
+    console.log('%c'+space, 'background: red; font-size: '+Math.round(Math.random()*50)+'px;');
+  } else {
+    console.log('%c'+space, 'background: lime; font-size: '+Math.round(Math.random()*50)+'px;');
+  }
+}, 10);
+ 
+setTimeout(function(){ // In 10 seconds we stop setInterval from running.
+  clearInterval(myIntervalTimer);
+}, 1000 * 10);
+
+
+
+
+
+
+var flipCoin = function(){ // Returns true or false
+  if(Math.random() > 0.5){
+    return true;
+  } else {
+    return false;
+  }
+}
+ 
+// setTimeout runs a given function after a certain time period.
+// clearTimeout(x) stops a timer before it fires.
+ 
+// clearInterval(x) stops a looping timer.
+// setInterval runs a given function after a certain time period in a loop.
+ 
+var space = " ";
+ 
+var myIntervalTimer = setInterval(function(){ // Runs once every 10 milliseconds.
+  space += " ";
+  if(space.length > 10){
+    space = " ";
+  }
+  if(flipCoin()){
+    console.log("%c ++☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺", "font-size: 40px; color: black; background: yellow");
+  } else {
+    console.log("%c ++MY NAME IS DANIELA GODARD RANGEL", "font-size: 20px; color: blue; background: yellow");
+  } 
+}, 10);
+ 
+
+setTimeout(function(){ // In 10 seconds we stop setInterval from running.
+  clearInterval(myIntervalTimer);
+}, 1000 * 20);
